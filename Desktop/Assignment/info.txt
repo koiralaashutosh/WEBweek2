@@ -1,0 +1,9 @@
+As stated in previous week, we will be building an expense tracker using the MERN stack. In this project, we'll be utilizing different HTTP requests to interact with the server and manage financial data.
+
+We will be using the POST request to create new data on the server. For example, when users log in or sign up, the POST request is used to send their login credentials or registration details to the server. This request helps to add new records to the database, like saving a new income or expense entry. It ensures that the necessary data is securely stored for future access.
+
+The GET request will be used to retrieve data from the server. For instance, when a user views their financial dashboard, a GET request is sent to retrieve their income, expenses, and other related details. This allows the application to display the most current data, such as showing the total balance or listing recent transactions. GET requests are essential for showing users their existing records without making any changes to the data.
+
+The DELETE request is used to remove data from the server. When users want to delete an income or expense entry from their records, the DELETE request is sent to the server. This request helps to maintain the accuracy of the financial data by allowing users to remove outdated or incorrect entries. After a successful DELETE request, the database is updated to reflect the changes, and the user sees the updated data.
+
+Lastly, we will use the PUT request to update existing data. This is useful when users need to edit their income or expense entries. For example, if a user wants to change the amount or category of an expense, a PUT request will be made to update the record. The PUT request ensures that the data on the server stays up to date, and any changes made by the user are saved correctly.
